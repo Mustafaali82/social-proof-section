@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+  color: white;
+  font-family: "Spartan" ,sans-serif;
+}
+
+body{
+    background-image: url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.main{
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.one{
+display: flex;
+margin-left: 100px;
+}
+
+.box{
+    margin-left: 100px;
+    display: flex;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-left: 40px;
+}
+
+.heading1{
+    font-family: 'Spartan', sans-serif;
+    font-size: 32px;
+    width: 300px;
+    color: #582558;
+    line-height: 35px;
+}
+span{
+    font-family: "Spartan" ,sans-serif;
+    color: #972c94;
+    font-weight: 600;
+}
+
+.text1{
+    font-family: "Spartan", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #81328069;
+}
+
+.paragraph1{
+    width: 450px;
+    margin-top: 18px;
+    line-height: 23px;
+}
+
+.star1{
+    width: 450px;
+    height: 29px;
+    background: #F7F1F8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 9px;
+}
+
+.span1{
+    font-size: 15px;
+    font-weight: 700;
+    color: #8b1e89;
+}
+
+.img1{
+    margin-left: 2px;
+}
+
+.colton-smith{
+    width: 350px;
+    background-color: #511F50;
+    margin-right: 25px;
+    padding: 27px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.colton{
+    width: 60px;
+    border-radius: 50%;
+
+}
+
+.images-section{
+    display: flex;
+}
+
+.heading-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 18px;
+    line-height: 25px;
+}
+
+.p1{
+    color: white;
+    margin-top: 21px;
+    font-family: "Spartan" ,sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    width: 315px;
+}
